@@ -22,12 +22,11 @@
             <nav>
                 <a href="#experiencia">Experiencia</a>
                 <a href="#Proyectos">Proyectos</a>
-                <a 
-                href="https://www.twitch.tv/"
-                target="_blank"
-                rel="noreferrer">Twitch</a>
                 <button>
-                Haz clic Aqui
+                    <a 
+                    href="https://www.twitch.tv/"
+                    target="_blank"
+                    rel="noreferrer">Twitch</a>
                 </button>
 
             </nav>
@@ -42,41 +41,78 @@
         
             <h2 id="#Proyectos">Proyectos</h2>
 
+            <video controls src ="images/5e84c678-a731-495a-8ff0-0ad0b3d1d50d.mp4"></video>
 
             <img src="images/Default_fat_cat_fighting_with_fat_Putin_3.jpg" alt="Putin grodo pelendos con gato gordo"
             width="200"
-            id="imagenputin"
-            >
+            id="imagenputin">
 
-        <section>
-            <label for="name" >
-                Nombre: <input type="text" id="name" name="name">
+            <section>
+                <details>
+                    <summary>¿Dónde estudio?</summary>
+                    <p>Actualmente me encuentro estudiando un grado de microinformatica y Sistemas en red en la formación profesional del centro Santa Gema Galgani</p>
+                </details>
+            </section>
 
-            </label>
-           
-            <div>
-                <label for="email" >
-                Email: <input type="email" id="email" name="email">
-                </label>
-            </div>
-            <div>
-
-            <label for="Age">
-                Edad: <input type="number" id="Age" name="age" placeholder="Instertu edad">
-            </label>
-
-            </div>
-                
-
-
-           
+            <h2>Formulario</h2>
+            <section>
+                <form action="">
+                    <fieldset>
+                        <legend>Formulario</legend>
+                        <label for="name" >
+                            Nombre: 
+                            <input 
+                            type="text" 
+                            id="name" 
+                            name="name" 
+                            placeholder="Inserte su Nombre"
+                            required>
+                            </label>
+                    
+                        <div>
+                            <label 
+                                for="email" >
+                                Email: 
+                                <input 
+                                type="email" 
+                                id="email" 
+                                name="email"
+                                placeholder="Inserte su Email"
+                                required> 
+                            </label>
+                        </div>
             
-        </section>
-    </body>
-
-
-
-
+                        <div>
+                            <label for="Age">
+                                Edad: 
+                                <input 
+                                type="number" 
+                                id="Age" 
+                                name="age" 
+                                placeholder="Instertu edad"
+                                required>
+                                
+                            </label>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Información adicional</legend>
+                        <label for="tel">
+                            Numero de telefono: 
+                            <input 
+                            type="tel" 
+                            id="tel" 
+                            name="tel" 
+                            placeholder="Instertu edad"
+                            required>
+                        </label>
+                    </fieldset>
+                    <input type="submit" value="Enviar">
+                     
+                </form>
+                    
+            </section>
         </main>
+    </body>
 </html>
 

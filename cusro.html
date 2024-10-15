@@ -1,13 +1,10 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <meta charset="utf-8"> <!-- codificacion -->
   <meta name="viewport" content="width=device-width">
-  <title>👨‍💻 Portfolio midudev - Ingeniero de Software con 15 años de experiencia</title>
-
+  <title>Portfolio Adrián Luque</title>
   <meta name="description" content="Portfolio de midudev, 15 años de experiencia como ingeniero de software">
-
   <!-- OPEN GRAPH -->
   <meta property="og:title" content="Portfolio de un ingeniero de software">
   <meta property="og:description" content="Portfolio de midudev, 15 años de experiencia como ingeniero de software">
@@ -24,14 +21,26 @@
 
   <style>
     body {
-      background: rgba(109, 197, 231, 0.9)
+      background: rgba(109, 223, 231, 0.9)
     }
+    h1 {
+      color: rgb(25, 94, 94);
+      font-size: 50px;
+    }
+    .link {
+      color: rgb(25, 94, 94);
+    }
+    #show {
+      color: rgb(248, 248, 248);
+      background-color: rgb(0, 84, 95);
+    }
+
   </style>
 </head>
 
 <body>
   <header>
-    <h1>Portfolio de @midudev 👨‍💻</h1>
+    <h1>Portfolio de @Luke 👨‍💻</h1>
 
     <!-- <iframe style="width:100%; aspect-ratio:16/9;" src="https://www.youtube.com/embed/8aryHZ8Z9WY?si=Jokizg8gw8S9BPOo"
       title="YouTube video player" frameborder="0"
@@ -39,9 +48,9 @@
       allowfullscreen></iframe> -->
 
     <nav>
-      <a href="#experiencia">Experiencia</a>
-      <a href="#proyectos">Proyectos</a> <!-- enlaces internos -->
-      <a href="https://twitch.tv/midudev" target="_blank" rel="noreferrer">Twitch</a>
+      <a class="link" href="#experiencia">Experiencia</a>
+      <a class="link" href="#proyectos">Proyectos</a> <!-- enlaces internos -->
+      <a class="link" href="https://twitch.tv/midudev" target="_blank" rel="noreferrer">Twitch</a>
     </nav>
   </header>
 
@@ -52,6 +61,8 @@
   </dialog>
 
   <button id="show">Ver más información</button>
+
+  <video controls src="images/5e84c678-a731-495a-8ff0-0ad0b3d1d50d.mp4"></video>
 
   <script>
     window.show.addEventListener('click', () => {
@@ -74,10 +85,10 @@
       <li class="list-item">Nacencia - 2015</li>
     </ul>
 
-    <a download href="/images/yo.jpg">
-      <img id="photo-image" width="200" height="200" title="Foto de midudev"
-        alt="Una fotografía de Miguel Ángel Durán sonriendo y mirando a cámara con las manos cruzadas"
-        src="/images/yo.jpg">
+    <a download href="images/Default_fat_cat_fighting_with_fat_Putin_3.jpg">
+      <img id="photo-image" width="200" height="200" title="Foto de putin"
+        alt="Foto putin vs gato"
+        src="images/Default_fat_cat_fighting_with_fat_Putin_3.jpg">
     </a>
 
     <h2 id="proyectos">Proyectos realizados</h2>
@@ -86,16 +97,16 @@
       <header>
         <h3>Mis tecnologías <span>favoritas</span></h3>
       </header>
-      <ol type="1" reversed start="10">
+      <ol>
         <li>HTML</li>
         <li>CSS</li>
-        <li value="5">JavaScript</li>
+        <li>JavaScript</li>
         <li>Node.js</li>
       </ol>
     </aside>
 
-    <button>
-      Haz clic aqui
+    <button id="show">
+      <a href="https://github.com/luque-07">Mi github</a>
     </button>
 
     <section>
@@ -106,7 +117,7 @@
             alt="Captura de pantalla de la página web de Tesla">
         </header>
         <p>
-          Elon Musk me llamó e hice en una tarda esta página desde cero
+          Elon Musk me llamó e hice en una tarde esta página desde cero
         </p>
         <footer>
           <small>Tecnologías utilizadas: HTML, CSS, JavaScript</small>
@@ -166,12 +177,12 @@
 
           <div>
             <label>Nombre:
-              <input type="text" name="name" placeholder="Miguel Ángel Durán" required>
+              <input type="text" name="name" placeholder="Adrián Luque" required>
             </label>
           </div>
 
           <label>Email:
-            <input type="email" name="email" placeholder="midudev@gmail.com" required>
+            <input type="email" name="email" placeholder="adrian.luquehernandez@gmail.com" required>
           </label>
         </fieldset>
 
@@ -179,7 +190,7 @@
           <legend>Información adicional</legend>
           <div>
             <label>Teléfono:
-              <input type="tel" name="phone" placeholder="Miguel Ángel Durán" required pattern="[0-9]{9}">
+              <input type="tel" name="phone" placeholder="34 999 999 999" required pattern="[0-9]{9}">
             </label>
           </div>
         </fieldset>
@@ -228,49 +239,5 @@
     <a href="tel:+34688888899">Llamar por teléfono</a>
     <a href="whatsapp://send?text=Hola midudev">Llamar por teléfono</a>
   </footer>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-
 </body>
-
 </html>
